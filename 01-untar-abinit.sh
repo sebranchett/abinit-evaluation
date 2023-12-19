@@ -11,5 +11,11 @@
 # find your account with:
 # sacctmgr list -sp user $USER
 
-srun tar xzf abinit-9.10.3.tar.gz
+ABINIT_VERSION=9.10.3
+# Download abinit
+srun wget https://www.abinit.org/sites/default/files/packages/abinit-"$ABINIT_VERSION".tar.gz
+# Extract the source code
+srun tar xzf abinit-"$ABINIT_VERSION".tar.gz
+# Clean up
+# srun rm abinit-"$ABINIT_VERSION".tar.gz
 
