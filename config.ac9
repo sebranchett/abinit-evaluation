@@ -1,16 +1,16 @@
 with_mpi="$OPENMPI_ROOT"
 with_fft="$FFTW_ROOT"
-with_hdf5="$HDF5_ROOT"
-with_netcdf="$NETCDF_C_ROOT"
-with_netcdf_fortran="$NETCDF_FORTRAN_ROOT"
+# with_hdf5="$HDF5_ROOT"
+# with_netcdf="$NETCDF_C_ROOT"
+# with_netcdf_fortran="$NETCDF_FORTRAN_ROOT"
 
-with_linalg_flavor="openblas"
-with_linalg="$OPENBLAS_ROOT"
+# with_linalg_flavor="openblas"
+# with_linalg="$OPENBLAS_ROOT"
 
 with_libxc=/scratch/sbranchett/abinit/abinit-9.10.3/fallbacks/install_fb/gnu/8.5/libxc/6.0.0
 
-# with_hdf5=/scratch/sbranchett/abinit/abinit-9.10.3/fallbacks/install_fb/gnu/8.5/hdf5/1.10.8
-# with_netcdf=/scratch/sbranchett/abinit/abinit-9.10.3/fallbacks/install_fb/gnu/8.5/netcdf4/4.9.0
-# with_netcdf_fortran=/scratch/sbranchett/abinit/abinit-9.10.3/fallbacks/install_fb/gnu/8.5/netcdf4_fortran/4.6.0
-# with_linalg=/scratch/sbranchett/abinit/abinit-9.10.3/fallbacks/install_fb/gnu/8.5/linalg/abinit_6.10
+with_hdf5=/scratch/sbranchett/abinit/abinit-9.10.3/fallbacks/install_fb/gnu/8.5/hdf5/1.10.8
+with_netcdf=/scratch/sbranchett/abinit/abinit-9.10.3/fallbacks/install_fb/gnu/8.5/netcdf4/4.9.0
+with_netcdf_fortran=/scratch/sbranchett/abinit/abinit-9.10.3/fallbacks/install_fb/gnu/8.5/netcdf4_fortran/4.6.0
+with_linalg=/scratch/sbranchett/abinit/abinit-9.10.3/fallbacks/install_fb/gnu/8.5/linalg/abinit_6.10
 
