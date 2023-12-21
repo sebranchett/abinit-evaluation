@@ -3,7 +3,7 @@
 #SBATCH --job-name=untar-abinit
 #SBATCH --partition=compute
 #SBATCH --account=innovation
-#SBATCH --time=23:55:00
+#SBATCH --time=06:00:00
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1GB
