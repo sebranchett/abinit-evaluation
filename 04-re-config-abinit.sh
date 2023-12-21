@@ -3,7 +3,7 @@
 #SBATCH --job-name=config-abinit
 #SBATCH --partition=compute
 #SBATCH --account=innovation
-#SBATCH --time=00:30:00
+#SBATCH --time=04:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=1
@@ -25,5 +25,5 @@ ABINIT_VERSION=9.10.3
 WORKDIR=./abinit-"$ABINIT_VERSION"
 cd "$WORKDIR"
 
-srun ./configure > ./config_output.log
+srun ./configure --with-config-file="../config.ac9" > ./re-config_output.log
 
